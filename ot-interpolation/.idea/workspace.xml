@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40c39457-2e1b-49a1-a102-934edb18f070" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ot_interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/main-result-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/main-result-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_149.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_149.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_199.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_199.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_1499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_1499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_19.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_19.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_199.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_199.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_1999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_1999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_2499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_2499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_299.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_299.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_2999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_2999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_3499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_3499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_39.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_39.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_399.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_399.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_3999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_3999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_4499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_4499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_49.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_49.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_4999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_4999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_5499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_5499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_59.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_59.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_599.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_599.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_5999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_5999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_6499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_6499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_699.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_699.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_799.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_799.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_99.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_99.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_3D_999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_3D_999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_49.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_49.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dot-interpolation/model_UOT_99.pth" beforeDir="false" afterPath="$PROJECT_DIR$/../dot-interpolation/models/model_UOT_99.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2d-interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2d-interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamfer_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/107_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/164_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/261_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/514_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/donut.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donut.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/generate_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mesh_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mesh_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sinkhorn-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cost_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualize.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2vNkNjuKhY5PsteykekNhqoLJID" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/thesis"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c39457-2e1b-49a1-a102-934edb18f070" name="Changes" comment="" />
+      <created>1743992880694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743992880694</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -4,6 +4,7 @@ import torch_directml
 from train_UOT import train
 from generate_data import *
 from visualize import plot3d, axplot3d
+import polyscope as ps
 
 class TempArgs:
     def __init__(self):
@@ -313,7 +314,7 @@ def calculate_accuracy(output, target):
 
 # train_dataloader, autoencoder = main_OT(1e-5, 0, 'neumann')
 autoencoder = Autoencoder_s_3d()
-autoencoder.load_state_dict(torch.load("model_UOT_3D_6499.pth", weights_only=True))
+autoencoder.load_state_dict(torch.load("models/model_UOT_3D_6499.pth", weights_only=True))
 autoencoder.eval()
 
 shape1 = np.zeros((32, 32, 32))
@@ -437,9 +438,10 @@ color_lst = np.array(color_lst)
 # ps_cloud = ps.register_point_cloud("my points", shape_lst)
 # ps_cloud.add_color_quantity("rand colors", color_lst)
 # ps_cloud.show()
-plot3d(shape_lst.T, axis_on=True, c=color_lst)
-plt.grid(False)
-plt.show()
+
+# plot3d(shape_lst.T, axis_on=True, c=color_lst)
+# plt.grid(False)
+# plt.show()
 
 # Image RGB -> VAE -> interpolation
 # n * m * 32
@@ -451,10 +453,11 @@ plt.show()
 # visualize_path(args, test_dataloader, autoencoder,flip_= False, T=8)
 
 def visualize_result():
-    T = 9
+    T = 6
     flip_ = False
     steps = (torch.arange(T + 1, device=args.device) / T).unsqueeze(-1) if T is not None else args.steps
 
+    shape_lst = []
     with torch.no_grad():
         for image_batch in train_dataloader:
 
@@ -502,14 +505,15 @@ def visualize_result():
             for i, ax in enumerate(axes.flat):
                 print(image_path[i].shape)
                 shape = np.squeeze(image_path[i].detach().cpu().numpy())
-                shape_lst = []
+                shape_ = []
                 for i1 in range(32):
                     for j in range(32):
                         for k in range(32):
-                            if shape[i1, j, k] > 0.2:
-                                shape_lst.append([i1, j, k])
-                shape_lst = np.array(shape_lst)
-                axplot3d(ax, shape_lst.T, axis_on=True)
+                            if shape[i1, j, k] > 0.03:
+                                shape_.append([i1, j, k])
+                shape_ = np.array(shape_)
+                shape_lst.append(shape_)
+                # axplot3d(ax, shape_lst.T, axis_on=True)
                 # ax.imshow(np.squeeze(image_path[i].detach().cpu().numpy(), 0), 'gray')
                 #
                 # ax.grid(False)
@@ -541,11 +545,38 @@ def visualize_result():
                 #     ax.spines['left'].set_linewidth(frame_width)
                 #     ax.spines['right'].set_linewidth(frame_width)
 
-            plt.grid(False)
-            plt.show()
-            fig.savefig("main-result-1.png", bbox_inches='tight')
-            break
+            # plt.grid(False)
+            # plt.show()
+            # fig.savefig("main-result-1.png", bbox_inches='tight')
+            # break
             # make_grid_show(image_path, pad_value=args.pad_value)
+
+    print(shape_lst)
+
+    for i in range(0, len(shape_lst)):
+        shape = shape_lst[i][:, [1, 0, 2]].copy()
+        shape[:, 2] = -shape[:, 2]
+        shape_lst[i] = shape
+
+    color_lst = []
+    for i in range(0, len(shape_lst)):
+        color_lst.append(np.linalg.norm(shape_lst[i], axis=1) / 100)
+        shape_lst[i][:, 0] += 40 * i
+        shape_lst[i][:, 2] -= 20 * i
+        # shape_lst[i] = rotate_y(shape_lst[i], -17)
+        # shape_lst[i] = rotate_x(shape_lst[i], -15)
+
+    result_shape = np.vstack(shape_lst)
+    result_color = np.hstack(color_lst)
+    print(result_color.shape)
+
+    ps.init()
+    ps.set_ground_plane_mode("none")
+
+    ps.register_point_cloud("pd1", result_shape, point_render_mode="quad", radius=0.0015)
+    ps.get_point_cloud("pd1").add_scalar_quantity("cl1", result_color)
+    # ps.register_point_cloud("pd1", point_cloud_2)
+    ps.show()
 
 def visualize_compare():
     T = 9
@@ -635,7 +666,7 @@ def visualize_compare():
             break
             # make_grid_show(image_path, pad_value=args.pad_value)
 
-# visualize_result()
+visualize_result()
 # visualize_compare()
 # import torch
 # import torch.nn as nn

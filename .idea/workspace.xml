@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb9c843a-b156-4252-bc6c-355291eccc79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ot-interpolation/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ot-interpolation/src/io.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ot-interpolation/src/ot_interpolation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ot-interpolation/src/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ot-interpolation/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/main-result-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/main-result-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_149.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_149.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_199.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_199.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_1499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_1499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_19.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_19.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_199.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_199.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_1999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_1999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_2499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_2499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_299.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_299.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_2999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_2999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_3499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_3499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_39.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_39.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_399.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_399.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_3999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_3999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_4499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_4499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_49.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_49.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_4999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_4999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_5499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_5499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_59.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_59.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_599.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_599.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_5999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_5999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_6499.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_6499.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_699.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_699.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_799.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_799.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_99.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_99.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_3D_999.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_3D_999.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_49.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_49.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dot-interpolation/model_UOT_99.pth" beforeDir="false" afterPath="$PROJECT_DIR$/dot-interpolation/models/model_UOT_99.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/2d-interpolation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/2d-interpolation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/chamfer_distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/compare-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/compare-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/data/107_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/data/164_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/data/261_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/data/514_template.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/data/donut.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/donut.pcd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/generate_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/generate_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/mesh_triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/mesh_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/ot-interpolation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/sinkhorn-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/solver-2d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/cost_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ot-interpolation/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/ot-interpolation/src/visualize.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ot-interpolation/src/ot_interpolation.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pfOxrjutwNtHtXqfMOrnxzgGER" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test.py.executor": "Run",
+    "Python.chamfer_distance.executor": "Run",
+    "Python.cost_matrix.executor": "Run",
+    "Python.generate_data.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mesh_triangle.executor": "Run",
+    "Python.ot-interpolation.executor": "Run",
+    "Python.ot_interpolation.executor": "Run",
+    "Python.tosca.executor": "Run",
+    "Python.utils.executor": "Run",
+    "Python.visualize.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/thesis/ot-interpolation",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\thesis\ot-interpolation" />
+      <recent name="C:\Users\Admin\Desktop\thesis\dynamic-optimal-transport" />
+      <recent name="C:\Users\Admin\Desktop\thesis\dynamic-optimal-transport\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\thesis\ot-interpolation\src" />
+      <recent name="C:\Users\Admin\Desktop\thesis\dot-interpolation\models" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb9c843a-b156-4252-bc6c-355291eccc79" name="Changes" comment="" />
+      <created>1733153913023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733153913023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ot-interpolation/src/generate_data.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
