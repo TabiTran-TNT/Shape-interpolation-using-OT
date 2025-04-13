@@ -20,10 +20,8 @@ def ot_multiple_shapes_interpolate(shape_lst, steps=5):
     returned_lambda_lst_lst = []
     for lambda_lst in lambda_lst_lst:
         if sum(lambda_lst) == 1.0:
-            barycenter = compute_barycenter(shape_lst, lambda_lst, 0.0001, 10)
+            barycenter = compute_barycenter(shape_lst, lambda_lst, 0.00001, 10)
             barycenter_lst.append(barycenter)
-            returned_lambda_lst_lst.append(lambda_lst)
-
     return barycenter_lst, returned_lambda_lst_lst
 
 
